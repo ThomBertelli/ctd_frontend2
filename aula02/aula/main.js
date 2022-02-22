@@ -20,8 +20,8 @@ for( let detail in user){
 
 console.log(prompt());
 
-//pega uma string e transforma em número
+//transforma em um número inteiro
 parseInt();
 
 //um numero randômico entre 1 e 3
-Math.random()*1+3
+Math.random()*3+1
