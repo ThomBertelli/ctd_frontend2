@@ -1,5 +1,5 @@
-export  function somar(a, b) {
+export default function somar(a, b) {
 
-    return a + b;
+    return a + b
 
-};
+}
