@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <div>
+            <label for="inputName">Nome</label>
+            <input id="inputName" type="text" value="Thomas Breno">
+        </div>
+        <div>
+            <label for="inputAge">Idade</label>
+            <input id="inputAge" type="number" value="">
+        </div>
+        
+        <div>
+            <label for="inputTerms">Concordo com os termos</label>
+            <input type="checkbox" name="inputTerms" id="inputTerms">
+        </div>
+        <div>
+            <select name="" id="">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+            </select>               
+        </div>
+        <div>
+            <input type="radio" name="accountType" id="inputPessoaFisica" value="Fisica" checked>
+            <label for="inputPessoaFisica">Pessoa Física</label>
+        </div>
+        <div>
+            <input type="radio" name="accountType" id="inputPessoaJuridica" value="Juridica">
+            <label for="inputPessoaJuridica">Pessoa Jurídica</label>
+        </div>
+
+        <div>
+            <label for="inputObs">Observações</label>
+            <textarea id="inputObs" cols="30" rows="10"></textarea>
+        </div>
+
+        <button type="submit" id="accountCreate">Criar Conta</button>
+        
+
+    </form>
+    <script src="./main.js"></script>
+</body>
+</html>
