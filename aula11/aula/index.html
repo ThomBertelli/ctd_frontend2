@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="formField">
+        <label for="inputName">Nome</label>
+        <input id="inputName" type="text" required minlength="3" >
+        <small id="errorAlert">Campo obrigatório</small>
+    </div>
+    
+    <div class="formField">
+        <label for="inputPwd">Senha</label>
+        <input id="inputPwd" type="text" required minlength="3">
+        <small id="errorAlertPwd">Campo Obrigatório</small>
+    </div>
+    
+    <button type="submit" id="buttonLogin">Criar Conta</button>
+
+    <script src="./main.js"></script>
+</body>
+</html>

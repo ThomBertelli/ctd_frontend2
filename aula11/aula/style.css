@@ -1,0 +1,17 @@
+*{
+    outline: none;
+}
+
+.formField small{
+    font-size: 12px;
+    color: red;
+    display: none;
+}
+
+.formField small.show{
+    display: block;
+}
+
+.formField .formFieldInvalid{
+    border-color: red;
+}
