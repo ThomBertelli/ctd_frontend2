@@ -23,8 +23,7 @@ submitButtonReference.addEventListener('click',function(event){
         comment: comentsTextReferece.value
     })
         
-    localStorage.setItem('comments', JSON.stringify(comments))
-    
+    localStorage.setItem('comments', JSON.stringify(comments))    
     
     showComentsReference.innerHTML += `
     <p>${comentsTextReferece.value}</p>
