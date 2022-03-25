@@ -19,15 +19,19 @@ submitButtonReference.addEventListener('click',function(event){
     
     let comentsTextReferece = document.querySelector('#comentsArea')
     
-    comments.push({
+    comments.unshift({
         comment: comentsTextReferece.value
     })
         
     localStorage.setItem('comments', JSON.stringify(comments))    
     
-    showComentsReference.innerHTML += `
+    let temp = showComentsReference.innerHTML, novo = `
     <p>${comentsTextReferece.value}</p>
         `
+    temp = novo + temp
+
+    showComentsReference.innerHTML = temp
+
 
     comentsTextReferece.value = " "
 
