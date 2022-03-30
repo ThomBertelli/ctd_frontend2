@@ -14,15 +14,11 @@ buttonRandonReference.addEventListener('click', function(event){
     })
     .then(data => {
         
-        let resultObject = data.results[0]
-        renderizarDadosUsuario(resultObject)
+        renderizarDadosUsuario(data.results[0])
         
-        console.log(resultObject)
     });
 
 })
-
-
 
 function renderizarDadosUsuario(dados) {
     showDataDivReference.innerHTML = `
